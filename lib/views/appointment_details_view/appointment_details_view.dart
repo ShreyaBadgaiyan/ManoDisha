@@ -1,4 +1,8 @@
-import 'package:emotion_tracker/consts/consts.dart';
+import 'package:flutter/material.dart';
+import 'package:manodisha/consts/consts.dart';
+
+import '../../consts/colors.dart';
+import '../../consts/fonts.dart';
 
 class AppointmentDetailsView extends StatelessWidget {
   const AppointmentDetailsView({super.key});

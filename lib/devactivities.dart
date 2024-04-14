@@ -195,8 +195,8 @@
 // //
 import 'dart:async';
 
-import 'package:emotion_tracker/thanking.dart';
 import 'package:flutter/material.dart';
+import 'package:manodisha/thanking.dart';
 import 'models/activity.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';

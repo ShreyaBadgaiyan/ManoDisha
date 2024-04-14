@@ -1,7 +1,7 @@
-import 'package:emotion_tracker/providers/chats_provider.dart';
-import 'package:emotion_tracker/providers/models_provider.dart';
-import 'package:emotion_tracker/screens/chat_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:manodisha/providers/chats_provider.dart';
+import 'package:manodisha/providers/models_provider.dart';
+import 'package:manodisha/screens/chat_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'constants/constants.dart';

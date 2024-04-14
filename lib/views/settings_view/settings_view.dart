@@ -1,13 +1,16 @@
-import 'package:emotion_tracker/consts/consts.dart';
-
+import 'package:flutter/material.dart';
+import 'package:manodisha/consts/consts.dart';
+        import '../../consts/colors.dart';
+import '../../consts/fonts.dart';
 import '../../consts/lists.dart';
-class SettingsViews extends StatelessWidget {
-  const SettingsViews({super.key});
+import '../../consts/strings.dart';
+        class SettingsViews extends StatelessWidget {
+        const SettingsViews({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
+        @override
+        Widget build(BuildContext context) {
+        return Scaffold(
+        appBar: AppBar(
         elevation: 0.0,
         backgroundColor: AppColors.blueColor,
         title: AppStyles.bold(

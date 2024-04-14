@@ -1,12 +1,10 @@
-import 'package:emotion_tracker/chatBot.dart';
-import 'package:emotion_tracker/consts/consts.dart';
-import 'package:emotion_tracker/main.dart';
-import 'package:emotion_tracker/screens/chat_screen.dart';
-import 'package:emotion_tracker/views/home_view/home.dart';
-import 'package:emotion_tracker/views/home_view/home_view.dart';
-import 'package:emotion_tracker/views/login_view/login_view.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:manodisha/views/login_view/login_view.dart';
+
+import 'chatBot.dart';
+import 'main.dart';
 
 class OpeningScreen extends StatefulWidget {
   const OpeningScreen({super.key});

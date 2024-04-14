@@ -175,17 +175,18 @@
 
 import 'dart:async';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:emotion_tracker/openingScreen.dart';
-import 'package:emotion_tracker/splash_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:manodisha/splash_screen.dart';
 
 import 'addEmotion.dart';
 import 'firebase_options.dart';
 import 'journalEntry.dart';
 import 'package:get/get.dart';
+
+import 'openingScreen.dart';
 // Import Get package
 
 Future<void> main() async {

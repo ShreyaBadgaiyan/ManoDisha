@@ -1,4 +1,6 @@
-import 'package:emotion_tracker/consts/consts.dart';
+import 'package:flutter/material.dart';
+import 'package:manodisha/consts/consts.dart';
+
 class CustomButton extends StatelessWidget {
   final Function()? onTap;
   final String buttonText;
