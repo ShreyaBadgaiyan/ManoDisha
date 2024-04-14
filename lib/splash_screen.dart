@@ -30,7 +30,6 @@
 //     );
 //   }
 // }
-import 'package:emotion_tracker/openingScreen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {

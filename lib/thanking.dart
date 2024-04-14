@@ -1,5 +1,6 @@
-import 'package:emotion_tracker/openingScreen.dart';
 import 'package:flutter/material.dart';
+
+import 'openingScreen.dart';
 
 
 class ThankingPage extends StatefulWidget {

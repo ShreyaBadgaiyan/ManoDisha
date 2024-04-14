@@ -35,6 +35,17 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  firebase_core:
+  firebase_auth:
+  firebase_analytics:
+  cloud_firestore:
+  intl: 0.17.0
+  flutter_spinkit: ^5.1.0
+  http: ^0.13.5
+  provider: ^6.0.5
+  animated_text_kit: ^4.2.2
+  velocity_x: 4.1.1
+  get: ^4.6.5
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +73,10 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -86,5 +101,12 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+  fonts:
+    - family: nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito1.ttf
+    - family: nunito_bold
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito2.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
