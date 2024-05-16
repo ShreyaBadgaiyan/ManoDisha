@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:manodisha/views/login_view/login_view.dart';
@@ -16,8 +15,7 @@ class OpeningScreen extends StatefulWidget {
 class _OpeningScreenState extends State<OpeningScreen> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Stack(
@@ -30,29 +28,41 @@ class _OpeningScreenState extends State<OpeningScreen> {
             Center(
               child: SingleChildScrollView(
                 child: Padding(
-                  padding: const EdgeInsets.only(top:40),
+                  padding: const EdgeInsets.only(top: 40),
                   child: Column(
-
-                    children:[
+                    children: [
                       TextButton(
                         onPressed: () {
-                          Navigator.of(context).push(MaterialPageRoute(builder: (context) => MyHomePage(title: 'Mood Tracker')));
+                          Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) =>
+                                  MyHomePage(title: 'Mood Tracker')));
                         },
-                child: OpenScreenFeatures(image: 'assets/images/mood.png', headText: 'Mood Tracker', descText: 'Analyse Yourself Here!',),
+                        child: OpenScreenFeatures(
+                          image: 'assets/images/mood.png',
+                          headText: 'Mood Tracker',
+                          descText: 'Analyse Yourself Here!',
+                        ),
                       ),
-
-                TextButton(
-                        onPressed: (){
-                         // Navigator.of(context).push(MaterialPageRoute(builder: (context) => ChatBot()));
-                        },
-
-                        child: OpenScreenFeatures(image: 'assets/images/mental.png', headText: 'MediCare Chat', descText: 'Hey,Talk To Us',),
-  ),
-                        TextButton(
+                      TextButton(
                         onPressed: () {
-                          Navigator.of(context).push(MaterialPageRoute(builder: (context) => LoginView()));
-                          },
-                        child: OpenScreenFeatures(image: 'assets/images/experts.png', headText: 'Connect With Expert', descText: 'Need Some Help?',),
+                          // Navigator.of(context).push(MaterialPageRoute(builder: (context) => ChatBot()));
+                        },
+                        child: OpenScreenFeatures(
+                          image: 'assets/images/mental.png',
+                          headText: 'MediCare Chat',
+                          descText: 'Hey,Talk To Us',
+                        ),
+                      ),
+                      TextButton(
+                        onPressed: () {
+                          Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) => LoginView()));
+                        },
+                        child: OpenScreenFeatures(
+                          image: 'assets/images/experts.png',
+                          headText: 'Connect With Expert',
+                          descText: 'Need Some Help?',
+                        ),
                       ),
                     ],
                   ),
