@@ -1,6 +1,7 @@
 
 
 import 'package:get/get.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 import '../../consts/consts.dart';
 import '../../res/components/custom_textfield.dart';

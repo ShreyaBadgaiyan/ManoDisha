@@ -1,8 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:manodisha/consts/consts.dart';
+import 'package:velocity_x/velocity_x.dart';
 
-import '../../consts/colors.dart';
-import '../../consts/fonts.dart';
 
 class AppointmentDetailsView extends StatelessWidget {
   const AppointmentDetailsView({super.key});

@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:manodisha/consts/consts.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class CustomButton extends StatelessWidget {
   final Function()? onTap;

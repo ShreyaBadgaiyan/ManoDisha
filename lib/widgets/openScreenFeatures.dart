@@ -10,7 +10,7 @@ class OpenScreenFeatures extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(10),
+      margin: const EdgeInsets.all(10),
       width: 230,
       height: 200,
       decoration: BoxDecoration(
@@ -18,14 +18,14 @@ class OpenScreenFeatures extends StatelessWidget {
           color: Colors.black, // Border color
           width: 1.0, // Border width
         ),
-        color: Color(0xFFC9D8EF),
+        color: const Color(0xFFC9D8EF),
         borderRadius: BorderRadius.circular(15),
         boxShadow: [
           BoxShadow(
             color: Colors.grey.withOpacity(0.5),
             spreadRadius: 3,
             blurRadius: 10,
-            offset: Offset(0, 3),
+            offset: const Offset(0, 3),
           ),
         ],
       ),
@@ -42,23 +42,23 @@ class OpenScreenFeatures extends StatelessWidget {
             ),
             Text(
               headText,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 1,
             ),
             Text(
               descText,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 14,
                 color: Colors.black,
               ),
             ),
-            SizedBox(height: 1),
+            const SizedBox(height: 1),
           ],
         ),
       ),

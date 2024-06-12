@@ -1,3 +1,5 @@
+import 'package:velocity_x/velocity_x.dart';
+
 import 'consts.dart';
 
 class AppFonts {
@@ -20,7 +22,7 @@ class AppStyles {
       Color? color = Colors.black,
       double? size = 14,
       TextAlign alignment = TextAlign.left}) {
-    return title.text.size(size).color(color).make();
+    return title.text.size(size).color(color!).make();
   }
 
   static bold(
@@ -30,7 +32,7 @@ class AppStyles {
       TextAlign alignment = TextAlign.left}) {
     return title.text
         .size(size)
-        .color(color)
+        .color(color!)
         .fontFamily(AppFonts.nunitoBold)
         .align(alignment)
         .make();

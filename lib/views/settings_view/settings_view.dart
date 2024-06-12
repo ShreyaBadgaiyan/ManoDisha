@@ -1,9 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:manodisha/consts/consts.dart';
-        import '../../consts/colors.dart';
-import '../../consts/fonts.dart';
+import 'package:velocity_x/velocity_x.dart';
 import '../../consts/lists.dart';
-import '../../consts/strings.dart';
         class SettingsViews extends StatelessWidget {
         const SettingsViews({super.key});
 

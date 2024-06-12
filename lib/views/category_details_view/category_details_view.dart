@@ -1,4 +1,6 @@
 
+import 'package:velocity_x/velocity_x.dart';
+
 import '../../consts/consts.dart';
 
 class CategoryDetailsView extends StatelessWidget {
